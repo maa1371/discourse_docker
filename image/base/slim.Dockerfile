@@ -118,4 +118,4 @@ COPY sbin/ /sbin
 # Discourse specific bits
 RUN useradd discourse -s /bin/bash -m -U &&\
     install -dm 0755 -o discourse -g discourse /var/www/discourse &&\
-    sudo -u discourse git clone --filter=tree:0 https://github.com/discourse/discourse.git /var/www/discourse
+    sudo -u discourse git clone --filter=tree:0 https://github.com/maa1371/discourse.git /var/www/discourse
